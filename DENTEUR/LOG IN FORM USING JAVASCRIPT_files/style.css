@@ -1,0 +1,106 @@
+body {
+    background-color: #fe8969;;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 600px;}
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-color-1 {
+    color: #fbaf3d;
+    transform: rotateY(30deg);
+}
+.login-form {
+    background-color: #fff;
+    margin-top: 80px;
+    padding: 20px 45px 0 20px;
+    border-radius: 10px;
+    height: 600px;
+}
+.logo-color-2 {
+    color: #fff;
+    background-color: #e17332;
+    border-radius: 5px;
+    transform: rotateZ(-5deg);
+    height: 48px;}
+.pay {
+    transform: rotateZ(5deg);
+    background-color: #e17332;
+    border-radius: 5px;
+    border: 1px solid white;
+    }
+.form-group {
+    display: flex;
+    }
+.img-email {
+    position: relative;
+    left: 35px;
+    top: 5px;}
+.form-control {
+    padding: .375rem 2.75rem;
+    font-size: 20px;
+    font-weight: 500;
+    }
+form {
+    margin-top: 50px;
+    }
+.form-group.form-check {
+    margin-left: 26px;
+    }
+.horizontal-space {
+    width: 228px;
+    }
+.forget-pwd {
+    color: #f56d45;
+}
+/* .btn.btn-block {
+    background-color: #f18f47;
+    margin-left: 12px;
+} */
+.login.btn.text-light.btn-block {
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #f18f47;
+    margin-left: 25px;
+    width: 478px;
+    padding: 12px 0;
+}
+.facebook.btn.text-light.btn-block {
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #3b5998;;
+    margin-left: 25px;
+    width: 478px;
+    padding: 12px 0;
+    margin-top: 10px;
+}
+.google.btn.text-light.btn-block {
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #db4a39;;
+    margin-left: 25px;
+    width: 478px;
+    padding: 12px 0;
+}
+
+.other-log-opt {
+    margin-left: 38%;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.new-user {
+    margin-left: 31%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.register {
+    color: #f66d45;;
+}
